@@ -1,57 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
+  <head>
+      <style>
   .red-button{
-    background-color:red;
+    background-color: red;
     color:white;
     border:none;
-    border-radius:5px;
-    box-shadow: 3px 4px 4px grey;
-    font-weight:bold;
-    font-style:oblique;
-    padding-top:2px;
-    padding-bottom:2px;
-    padding-left:3px;
-    padding-right:3px;
-
   }
-
   .yellow-button{
-    background-color:yellow;
-    color:black;
-    border:none;
-    border-radius:5px;
-    box-shadow: 3px 4px 4px grey;
-    font-weight:bold;
-    font-style:oblique;
-    padding-top:2px;
-    padding-bottom:2px;
-    padding-left:3px;
-    padding-right:3px;
+    color:white;
+    background-color: yellow;
   }
 </style>
-
-</head>
-
-<body>
+  </head>
+  <body>
   
-<button title="Good job!" class="red-button">
-  HELLO
+<button title="good job" class="red-button" onclick="alert('Good Job')">
+  hello
 </button>
+<p>
+  paragraph of <button class="yellow-button">hello</button> text
+</p>
 
-<p>paragraph of <button class="yellow-button">HELLO</button>text</p>
-</body>
+	<script>
+		//this creates a popup
+	alert('hello');
+	</script>
 
-<script>
-  //this is a comment 
-  // alert('hello');
-
-  console.log(2+2);
-  console.log('suprith');
-</script>
-
+  </body>
 </html>
+
+
+
 
 
 
